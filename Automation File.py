@@ -26,8 +26,8 @@ main_report = '//*[@id="view_select"]'
 
 export_path ='//*[@id="export_select"]'
 
-driver.find_element_by_xpath(username_input).send_keys("mshepherd5")
-driver.find_element_by_xpath(password_input).send_keys("Parker#11")
+driver.find_element_by_xpath(username_input).send_keys("username")
+driver.find_element_by_xpath(password_input).send_keys("password")
 driver.find_element_by_xpath(log_in_submit).click()
 # driver.find_element_by_xpath(reports).click()
 driver.implicitly_wait(5)
